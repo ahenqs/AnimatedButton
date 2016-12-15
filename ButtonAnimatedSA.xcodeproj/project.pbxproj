@@ -12,6 +12,7 @@
 		B7774D331E027AF000BFDF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7774D311E027AF000BFDF27 /* Main.storyboard */; };
 		B7774D351E027AF000BFDF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7774D341E027AF000BFDF27 /* Assets.xcassets */; };
 		B7774D381E027AF000BFDF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7774D361E027AF000BFDF27 /* LaunchScreen.storyboard */; };
+		B7774D401E027E1100BFDF27 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7774D3F1E027E1100BFDF27 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B7774D341E027AF000BFDF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7774D371E027AF000BFDF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7774D391E027AF000BFDF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7774D3F1E027E1100BFDF27 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B7774D2D1E027AF000BFDF27 /* AppDelegate.swift */,
 				B7774D2F1E027AF000BFDF27 /* ViewController.swift */,
+				B7774D3F1E027E1100BFDF27 /* UIButtonExtension.swift */,
 				B7774D311E027AF000BFDF27 /* Main.storyboard */,
 				B7774D341E027AF000BFDF27 /* Assets.xcassets */,
 				B7774D361E027AF000BFDF27 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				B7774D301E027AF000BFDF27 /* ViewController.swift in Sources */,
 				B7774D2E1E027AF000BFDF27 /* AppDelegate.swift in Sources */,
+				B7774D401E027E1100BFDF27 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonAnimatedSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.ButtonAnimatedSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonAnimatedSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahenqs.ButtonAnimatedSA;
 				PRODUCT_NAME = "$(TARGET_NAME)";

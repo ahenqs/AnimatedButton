@@ -9,17 +9,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var button: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setupUI()
+    }
+    
+    func setupUI() {
+        
+        //changes image tint color for button 2
+        let image = UIImage(named: "Settings")
+        let tintedImage = image?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+        button.setImage(tintedImage, for: .normal)
+        button.tintColor = UIColor.orange
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        sender.animate()
+        
+        //should do some stuff here
     }
-
-
 }
 
