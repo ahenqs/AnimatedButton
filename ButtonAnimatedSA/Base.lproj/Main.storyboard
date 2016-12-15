@@ -23,24 +23,17 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fU-Wy-7z0" customClass="StatusButton" customModule="ButtonAnimatedSA" customModuleProvider="target">
                                 <rect key="frame" x="163" y="309" width="48" height="48"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="48" id="Doa-26-MuL"/>
+                                    <constraint firstAttribute="width" constant="48" id="6Cr-ys-m6s"/>
                                 </constraints>
                                 <state key="normal" image="Settings"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkF-3n-JKk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOk-IM-axD">
-                                <rect key="frame" x="131" y="28" width="112" height="112"/>
-                                <state key="normal" image="Apple"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ia6-GA-MCz"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUf-qE-QNm" customClass="StatusButton" customModule="ButtonAnimatedSA" customModuleProvider="target">
                                 <rect key="frame" x="175" y="430" width="24" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="DHq-Mo-EI5"/>
+                                    <constraint firstAttribute="width" constant="24" id="gNK-Yc-VhH"/>
                                 </constraints>
                                 <state key="normal" image="Heart"/>
                                 <connections>
@@ -50,14 +43,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XUf-qE-QNm" secondAttribute="bottom" constant="213" id="2S6-pr-rZb"/>
-                            <constraint firstItem="XUf-qE-QNm" firstAttribute="top" secondItem="8fU-Wy-7z0" secondAttribute="bottom" constant="73" id="9gT-9T-SdD"/>
-                            <constraint firstItem="fOk-IM-axD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G6z-gw-ZDr"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8fU-Wy-7z0" secondAttribute="bottom" constant="310" id="YP2-Go-6Hi"/>
-                            <constraint firstItem="fOk-IM-axD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="iTw-sh-IvB"/>
-                            <constraint firstItem="fOk-IM-axD" firstAttribute="centerX" secondItem="8fU-Wy-7z0" secondAttribute="centerX" id="k3w-RC-pkQ"/>
-                            <constraint firstItem="XUf-qE-QNm" firstAttribute="centerX" secondItem="8fU-Wy-7z0" secondAttribute="centerX" id="snf-19-lPV"/>
-                            <constraint firstItem="8fU-Wy-7z0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="waN-TS-GNl"/>
+                            <constraint firstItem="8fU-Wy-7z0" firstAttribute="centerX" secondItem="XUf-qE-QNm" secondAttribute="centerX" id="2Us-g0-Age"/>
+                            <constraint firstItem="XUf-qE-QNm" firstAttribute="top" secondItem="8fU-Wy-7z0" secondAttribute="bottom" constant="73" id="5Z8-Ah-Veu"/>
+                            <constraint firstItem="8fU-Wy-7z0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="289" id="L9d-vW-Vcn"/>
+                            <constraint firstItem="8fU-Wy-7z0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ctR-3d-r5w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XUf-qE-QNm" secondAttribute="bottom" constant="213" id="uz7-Pj-Vo8"/>
+                            <constraint firstItem="8fU-Wy-7z0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ycC-Yx-tT1"/>
                         </constraints>
                     </view>
                     <connections>
@@ -71,7 +62,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Apple" width="112" height="112"/>
         <image name="Heart" width="192" height="192"/>
         <image name="Settings" width="256" height="256"/>
     </resources>
