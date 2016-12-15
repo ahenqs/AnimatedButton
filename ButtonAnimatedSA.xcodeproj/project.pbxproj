@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76690EA1E031B0C008B652D /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76690E91E031B0C008B652D /* StatusButton.swift */; };
 		B7774D2E1E027AF000BFDF27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7774D2D1E027AF000BFDF27 /* AppDelegate.swift */; };
 		B7774D301E027AF000BFDF27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7774D2F1E027AF000BFDF27 /* ViewController.swift */; };
 		B7774D331E027AF000BFDF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7774D311E027AF000BFDF27 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B76690E91E031B0C008B652D /* StatusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
 		B7774D2A1E027AF000BFDF27 /* ButtonAnimatedSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimatedSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7774D2D1E027AF000BFDF27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7774D2F1E027AF000BFDF27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B7774D2D1E027AF000BFDF27 /* AppDelegate.swift */,
 				B7774D2F1E027AF000BFDF27 /* ViewController.swift */,
 				B7774D3F1E027E1100BFDF27 /* UIButtonExtension.swift */,
+				B76690E91E031B0C008B652D /* StatusButton.swift */,
 				B7774D311E027AF000BFDF27 /* Main.storyboard */,
 				B7774D341E027AF000BFDF27 /* Assets.xcassets */,
 				B7774D361E027AF000BFDF27 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7774D301E027AF000BFDF27 /* ViewController.swift in Sources */,
+				B76690EA1E031B0C008B652D /* StatusButton.swift in Sources */,
 				B7774D2E1E027AF000BFDF27 /* AppDelegate.swift in Sources */,
 				B7774D401E027E1100BFDF27 /* UIButtonExtension.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				B7774D3E1E027AF000BFDF27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

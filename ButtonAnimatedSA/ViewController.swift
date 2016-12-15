@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button: StatusButton!
+    @IBOutlet weak var statusButton: StatusButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,18 +20,23 @@ class ViewController: UIViewController {
     }
     
     func setupUI() {
-        
-        //changes image tint color for button 2
-        let image = UIImage(named: "Settings")
-        let tintedImage = image?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
-        button.setImage(tintedImage, for: .normal)
-        button.tintColor = UIColor.orange
+
+        //changes standard color for status button
+        statusButton.onColor = UIColor(red: 245.0/255.0, green: 65.0/255.0, blue: 104.0/255.0, alpha: 1.0)
+        statusButton.offColor = UIColor.lightGray
     }
 
-    @IBAction func buttonTapped(_ sender: UIButton) {
+    @IBAction func buttonTapped(_ sender: StatusButton) {
         
-        sender.animate()
+        sender.changeStatus()
         
+        //should do some stuff here
+    }
+    
+    @IBAction func statusTapped(_ sender: StatusButton) {
+        
+        statusButton.changeStatus()
+
         //should do some stuff here
     }
 }
